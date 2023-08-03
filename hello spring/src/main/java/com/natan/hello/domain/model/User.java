@@ -1,4 +1,4 @@
-package com.natan.hello.model;
+package com.natan.hello.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -15,5 +15,4 @@ public class User {
     private String name;
     private String username;
     private String email;
-
 }
